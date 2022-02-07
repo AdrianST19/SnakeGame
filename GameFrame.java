@@ -16,8 +16,8 @@ public class GameFrame extends JFrame{
         this.setTitle("Snake");
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setResizable(false);
-        this.pack(); // take our J frame and fit it around all of the component that we add
+        this.pack(); 
         this.setVisible(true);
-        this.setLocationRelativeTo(null); // appear in the middle of the computer screen
+        this.setLocationRelativeTo(null); 
     }
 }
